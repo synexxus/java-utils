@@ -1,0 +1,31 @@
+Source: hypvieh-utils
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Robert Middleton <rmiddleton@synexxus.com>
+Build-Depends: debhelper (>= 10), default-jdk, maven-debian-helper (>= 2.1)
+Build-Depends-Indep: libslf4j-java, junit4, default-jdk-doc, libmaven-javadoc-plugin-java 
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/hypvieh-utils.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/hypvieh-utils.git
+Homepage: github.com/hypfvieh/java-utils
+
+Package: libhypvieh-utils-java
+Architecture: all
+Depends: ${misc:Depends}, ${maven:Depends}
+Suggests: ${maven:OptionalDepends}, libhypvieh-utils-java-doc
+Description: java-utils
+ A collection of utils commonly used in my projects. Feel free to use it
+ (or parts of it) in your own projects.
+
+Package: libhypvieh-utils-java-doc
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Recommends: ${maven:DocDepends}, ${maven:DocOptionalDepends}
+Suggests: libhypvieh-utils-java
+Description: Documentation for java-utils
+ A collection of utils commonly used in my projects. Feel free to use it
+ (or parts of it) in your own projects.
+ .
+ This package contains the API documentation of libhypvieh-utils-java.

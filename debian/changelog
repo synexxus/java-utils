@@ -1,0 +1,6 @@
+hypvieh-utils (1.0.5-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your
+    ITP>
+
+ -- Robert Middleton <rmiddleton@synexxus.com>  Mon, 28 Jan 2019 14:26:01 -0500

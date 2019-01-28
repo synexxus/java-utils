@@ -1,0 +1,16 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: java-utils
+Source: github.com/hypfvieh/java-utils
+
+Files: *
+Copyright: 2019, hypfvieh
+License: BSD
+
+Files: debian/*
+Copyright: 2019, Robert Middleton <rmiddleton@synexxus.com>
+License: BSD
+
+License: BSD
+  TODO: include the full text of the license here
+
+

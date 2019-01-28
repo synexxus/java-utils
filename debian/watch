@@ -1,0 +1,2 @@
+version=3
+https://github.com/hypfvieh/java-utils/tags .*/(?:.*?)([\d\.]+)\.tar\.gz
